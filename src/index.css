@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: system-ui,  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.active{
+    background-color: #FF6500;
+    color: #000016;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+}
+
+.x ol {
+    list-style-type: decimal;
+}
+.x ul {
+    list-style-type: disc;
+}
+  /* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
